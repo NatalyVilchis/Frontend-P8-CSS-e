@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>FRUITS STORE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="_css/style.css">
+    <script type="text/javascript" src="_js/libs/jquery-1.8.3.min.js"></script>
+
+  </head>
+
+
+ <body>
+    
+    <!--UI-Main App-->
+    <div id="AppFruitStore" class="app-fruits-store">
+
+    <!--FILTRO DE BUSQUEDA-->
+         <div id="holderFilterInfo" class="holder-filter-info">
+             <input id="filterFruits" class="filter-fruits" type="text" placeholder="Buscar">
+         </div>
+
+         
+    <!--LISTA DE PRODUCTOS-->
+        <div id="holderProductsList" class="holder-products-list">
+    
+    <!--SAMPLE CARD-TARJETAS DE PRODUCTOS-->
+             <div id="1" class="fruit-card">
+             <img src="_imgs/fruits/apple-green.jpg" style="border-color: #ccff00">
+
+             <h2>GREEN APPLE</h2>  
+             <p class="description"> lorem ipsum </p> 
+             <p class="price"> $29 </p> 
+
+             <span data-id="1" 
+                   datata-img="apple-green.jpg" 
+                   data-price="29" 
+                   data-fruit= "Green Apple">Agregar</span>
+             </div>
+</div>
+    <!--CARRITO DE COMPRAS-->
+         <div id="holderProductsCart" class="holder-products-cart">
+
+    <!--PRODUCTOS TOTALES-->
+             <div id="totalProducts" class="total-products">
+                 <h3>TOTAL</h3>
+                 <span id="totalFruits"  class="total-fruits">10</span> 
+                 <span id="totalItems"   class="total-items">30</span> 
+                 <span id="totalPrice"   class="total-price">300</span> 
+                 <span id="totalPayment" class="total-payment">COMPRAR</span> 
+             </div>
+            
+    <!--TARJETA DE PRODUCTOS AGREGADOS-->        
+        <div id="productsCart" class="products-cart">
+
+                <div data-id="" class="cart-card">
+                <img class="img" src="_imgs/thumbs/apple-green_thumb.jpg">
+                <span class="name" GREEN APPLE></span>
+                <br>
+                <span class="price">10</span>
+                <br>
+                <span class="cout">9</span>
+                <span class="total">90</span>
+                <br>
+                <span class="min">-</span>
+                <span class="add">+</span>
+                <span class="cf"></span>
+                <span class="del">Remover del carrito</span>
+        </div> 
+     </div>
+ </div>
+
+    <!--UI-EXTRA-->
+         <div id="holderNotifications" class="holder-notifications">NOTIFICIONES</div>  
+         
+    </div>          
+
+  <p id="sample"> </p>
+    <script type="text/javascript" src="_js/main.js"></script>
+ </body>
+
+
+</html>

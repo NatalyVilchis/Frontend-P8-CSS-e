@@ -1,0 +1,195 @@
+body { /*background-image: url(../_imgs/bgs/bg02.jpg);*/
+   font-family: arial;
+
+  }
+
+
+
+
+/*APP PRINCIPAL*//*APP PRINCIPAL*//*APP PRINCIPAL*//*APP PRINCIPAL*//*APP PRINCIPAL*//*APP PRINCIPAL*//*APP PRINCIPAL*/
+#AppFruitStore{ }
+.app-fruits-store{ 
+	border: 4px #ccff00 solid;
+    width: 640 px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+	 }
+
+
+
+/*FILTRO DE BUSQUEDA*//*FILTRO DE BUSQUEDA*//*FILTRO DE BUSQUEDA*//*FILTRO DE BUSQUEDA*//*FILTRO DE BUSQUEDA*//*FILTRO DE BUSQUEDA*/
+.holder-filter-info{ 
+border: 4px orange solid; 
+}
+.filter-fruits {
+font-size: 1.3em; /*fuente monoespaciada*/
+padding: 4px;
+display: block;
+margin: 4px auto;
+text-align: center;
+border-radius: 4px;
+border:2px solid orange;
+width: 40%;
+transition: width 0.35s ease-in-out, border 0.35s ease-in-out;
+  }
+/*seudoclase*/
+ .filter-fruits:focus {
+outline: none;
+border: 2px solid #00be07;
+width: 60%;
+ }
+
+/*LISTA DE PRODUCTOS*//*LISTA DE PRODUCTOS*//*LISTA DE PRODUCTOS*//*LISTA DE PRODUCTOS*//*LISTA DE PRODUCTOS*//*LISTA DE PRODUCTOS*/
+.holder-products-list{
+border: 4px red solid;
+width: 48%;
+height: 93vh;
+overflow-y: auto;
+float: left;
+  }
+
+.fruit-card{
+width: 80%;
+height: auto;
+padding: 10px 20px 20px 20px;
+margin: 8px auto;
+box-shadow: 0 2px 4px #8f7c6f;
+border-radius: 4px;
+background-color: white;
+ }
+ /*regla de estilo desendente-img*/
+ .fruit-card img{
+width: 75%;
+height: auto;
+margin: 0 auto;
+display: block;
+border-radius: 50%;
+border: 16px solid orange;
+ }
+ .fruit-card h2{
+font-weight: normal;
+text-align: center;
+color: green;
+margin: 0.5em auto;
+ }
+ .fruit-card p.description{
+font-family: arial;
+text-align: center;
+color: red;
+margin: 0.5em auto;
+ }
+.fruit-card p.price{
+text-align: center;
+font-size: 24px;
+color: brown;
+margin: 0.5em auto;
+ }
+
+ .fruit-card span{
+font-family: arial;
+background-color: #faf2eb;
+color: #3e0f0f;
+font-size: 28px;
+display: block;
+width: 90%;
+padding: 16px;
+margin: 0 auto;
+text-align: center;
+text-transform: uppercase; /*convierte en mayusculas*/
+cursor: pointer;/*aparecera un cursor*/
+border-radius: 4px;
+transition: background-color 0.35s ease-in-out;
+ }
+/*seudoclase*/
+  .fruit-card span:hover{
+background-color: #00be97;
+color: white;
+ }
+
+
+
+/*CARRITO DE COMPRAS*//*CARRITO DE COMPRAS*//*CARRITO DE COMPRAS*//*CARRITO DE COMPRAS*//*CARRITO DE COMPRAS*//*CARRITO DE COMPRAS*/
+.holder-products-cart{ 
+border: 4px green solid;
+background-color: orange;
+width: 48%;
+height: 93vh;
+overflow-y: auto;
+float: right;
+ }
+
+#totalProducts{}
+.holder-products-cart .total-products{ 
+background-color: lightgray; 
+padding: 20px;
+text-align: center;
+
+ }
+
+ #productsCart{}
+.holder-products-cart .products-cart{ 
+background-color: white; 
+ }
+
+
+.holder-products-cart .total-products h3{
+font-size: 24px;
+margin: 0 0 16px 0;
+text-align: center;
+ 	}
+
+.holder-products-cart .total-products span{
+font-size: 24px;
+ 	}
+
+/*Selector agrupado de SPAN*/
+.holder-products-cart .total-products .total-fruits,
+.holder-products-cart .total-products .total-items,
+.holder-products-cart .total-products .total-price{
+	background-color: #faf2eb;
+	margin: 8px auto;
+	padding: 8px;
+	border-radius: 4px;
+	display: block;
+}
+
+
+/*seudoclases para poner texto antes y despues de texto en HTML*/
+.holder-products-cart .total-products span.total-fruits{}
+.holder-products-cart .total-products span.total-fruits:after{content: " Frutas";}
+.holder-products-cart .total-products span.total-items {}
+.holder-products-cart .total-products span.total-items:after{content: " Piezas";}
+.holder-products-cart .total-products span.total-price {}
+.holder-products-cart .total-products span.total-price:before{content: "Total $";}
+
+
+
+.holder-products-cart .total-products span.total-payment{ 
+	color: purple;
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin: 8px auto;
+    cursor: pointer;
+    padding: 8px;
+    transition: background-color 0.35s ease-in-out;
+    /*text-transform: lowercase;Ayuda a convertir en minusculas*/
+    
+	 }
+.holder-products-cart .total-products span.total-payment:hover{ 
+	
+    display: block;
+    background-color: gray;
+    color: black;
+    border-radius: 4px;
+    margin: 8px auto;
+    
+    
+	 }
+
+/*NOTIFICACIONES*//*NOTIFICACIONES*//*NOTIFICACIONES*//*NOTIFICACIONES*//*NOTIFICACIONES*//*NOTIFICACIONES*//*NOTIFICACIONES*/
+.holder-notificationst{ 
+border: 8px black solid;
+ }

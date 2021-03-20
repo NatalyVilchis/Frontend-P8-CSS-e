@@ -1,0 +1,44 @@
+{
+    "fruitsdata": [
+        {
+            "fruitid":     "1",
+            "imagefile":   "apple-green.jpg",
+            "name":        "Green Apple",
+            "description": "Consectetur adipiscing elit, sed do eiusmod magna aliqua.",
+            "color":       "#D6E282",
+            "price":       10,
+            "existences":  82 },
+        {
+            "fruitid":     "2",
+            "imagefile":   "blackberry.jpg",
+            "name":        "Blackberry",
+            "description": "Sed id semper risus in hendrerit gravida rutrum quisque.",
+            "color":       "#2F2838",
+            "price":       16,
+            "existences":  11 },
+        {
+            "fruitid":     "3",
+            "imagefile":   "mango-manila.jpg",
+            "name":        "Mango Manila",
+            "description": "Nisl tincidunt eget nullam non nisi est sit egestas turpis.",
+            "color":       "#FCD071",
+            "price":       10,
+            "existences":  82 },
+        {
+            "fruitid":     "4",
+            "imagefile":   "tangerine.jpg",
+            "name":        "Tangerine",
+            "description": "Sapien pellentesque habitant morbi tristique senectus.",
+            "color":       "#F58D28",
+            "price":       20,
+            "existences":  5 },
+        {
+            "fruitid":     "5",
+            "imagefile":   "watermelon.jpg",
+            "name":        "Watermelon",
+            "description": "At tempor commodo ullamcorper a lacus vestibulum sed tellus.",
+            "color":       "#94AA66",
+            "price":       8,
+            "existences":  7 }
+    ]
+}
